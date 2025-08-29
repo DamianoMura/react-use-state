@@ -5,8 +5,7 @@ import './App.css'
 import Header from './components/Header'
 import Main from './components/Main'
 
-function App() {
-  const languages = [
+const languages = [
   {
     id: 1,
     title: "HTML",
@@ -39,6 +38,8 @@ function App() {
   }
 ];
 
+function App() {
+  
   return (
     <>
       <Header/>
